@@ -642,20 +642,21 @@
 
     @media (max-width: 600px) {
       .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
         padding: 0 10px;
         height: auto;
       }
       .logo-bar {
-        margin-bottom: 8px;
+        flex: 1 1 100px;
       }
       .top-button {
-        width: 100%;
-        margin: 0 0 10px 0;
-        font-size: 16px;
-        padding: 10px 0;
-        text-align: center;
+        flex: 1 1 100px;
+        margin-left: auto;
+        margin-right: 0;
+        font-size: 15px;
+        padding: 10px 8px;
+        width: auto;
       }
     }
   </style>
